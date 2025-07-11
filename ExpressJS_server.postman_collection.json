@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "3772aa37-ae18-4d68-8ea7-37370c3e2638",
+		"name": "ExpressJS_server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46562937"
+	},
+	"item": [
+		{
+			"name": "get home page",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localHost-3000}}/",
+					"host": [
+						"{{localHost-3000}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get tea",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localHost-3000}}/tea",
+					"host": [
+						"{{localHost-3000}}"
+					],
+					"path": [
+						"tea"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add tea by name and price",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"ice-tea\",\"price\":400}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{localHost-3000}}/teas",
+					"host": [
+						"{{localHost-3000}}"
+					],
+					"path": [
+						"teas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all tea items as a list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"tea\",\r\n    \"price\": 600\r\n}"
+				},
+				"url": {
+					"raw": "{{localHost-3000}}/teas",
+					"host": [
+						"{{localHost-3000}}"
+					],
+					"path": [
+						"teas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update tea items using id",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"tea\",\"price\":600}  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{localHost-3000}}/teas/1",
+					"host": [
+						"{{localHost-3000}}"
+					],
+					"path": [
+						"teas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get tea item by id",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localHost-3000}}/teas/0",
+					"host": [
+						"{{localHost-3000}}"
+					],
+					"path": [
+						"teas",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete tea item by id",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"tea\",\r\n    \"price\": 600\r\n}"
+				},
+				"url": {
+					"raw": "{{localHost-3000}}/teas/1",
+					"host": [
+						"{{localHost-3000}}"
+					],
+					"path": [
+						"teas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "localHost-3000",
+			"value": "http://127.0.0.1:3000",
+			"type": "default"
+		}
+	]
+}
