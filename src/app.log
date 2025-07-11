@@ -1,0 +1,10 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"24.558\"}","timestamp":"2025-07-09T17:11:36.741Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"0.981\"}","timestamp":"2025-07-09T17:11:39.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"0.668\"}","timestamp":"2025-07-09T17:11:41.029Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"P\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"17.434\"}","timestamp":"2025-07-09T17:12:05.828Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"P\",\"url\":\"/teas/sanccksnanc\",\"status\":\"404\",\"responseTime\":\"1.765\"}","timestamp":"2025-07-09T17:12:23.344Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"P\",\"url\":\"/teas/\",\"status\":\"201\",\"responseTime\":\"1.182\"}","timestamp":"2025-07-09T17:12:38.585Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"P\",\"url\":\"/teas/\",\"status\":\"201\",\"responseTime\":\"0.692\"}","timestamp":"2025-07-09T17:12:53.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"P\",\"url\":\"/teas/\",\"status\":\"201\",\"responseTime\":\"0.827\"}","timestamp":"2025-07-09T17:12:55.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"P\",\"url\":\"/teas/\",\"status\":\"201\",\"responseTime\":\"0.978\"}","timestamp":"2025-07-09T17:12:57.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"P\",\"url\":\"/teas/\",\"status\":\"201\",\"responseTime\":\"0.733\"}","timestamp":"2025-07-09T17:12:59.630Z"}

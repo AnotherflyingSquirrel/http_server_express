@@ -1,0 +1,32 @@
+{
+  "name": "expressjs-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Shailesh Nehra",
+  "license": "ISC",
+  "description": "An expressJS server running on the node environment",
+  "dependencies": {
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnotherflyingSquirrel/http_server_express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnotherflyingSquirrel/http_server_express/issues"
+  },
+  "homepage": "https://github.com/AnotherflyingSquirrel/http_server_express#readme"
+}
