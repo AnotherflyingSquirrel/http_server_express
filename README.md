@@ -3,7 +3,7 @@
 - Import Postman docs from `ExpressJS_server.postman_collection.json` to explore functionality and requests served by server
 - Create a .env file in root directory to use dotenv to set port number by inserting the following text into the .env file:
   `PORT=<port number to listen on>`
-
+- Use `npm run start` to start the server
 - This project uses ExpressJS to create a server that responds to http requests on the port specified in the .env file and performs basic crud operations
 - All data is stored in a in memory database so is volatile in nature. DON'T STORE IRRETRIVABLE DATA USING THIS UTILITY
 - Uses winston and morgan to log all relevant activity to `src/app.log` and prints relevant info on activity to the server's console
